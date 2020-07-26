@@ -1,0 +1,163 @@
+@font-face{
+  font-family: Saira_Condensed;
+  src: url(Saira_Condensed/SairaCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open_Sans;
+  src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url(Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: Merriweather_Sans;
+  src: url(Merriweather_Sans/MerriweatherSans-Light.ttf);
+}
+
+/*TEST*/
+
+html *{
+  margin: 0;
+}
+
+header{
+  margin-top: 40px;
+}
+
+.branding{
+  float: left;
+  color: black;
+  margin: 0 0 0 50px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+
+}
+
+.branding a{
+  color: black;
+  font-size: 25px;
+}
+
+.header-right{
+  margin-right: 10px;
+  margin-top: 10px;
+
+  }
+.home{
+  display: none;
+}
+
+.branding{
+  margin-left: 25px;
+}
+
+.main-hr{
+margin-top: 40px;
+margin-bottom: 30px;
+margin-left: 42.5%;
+}
+
+/*Test END*/
+
+.links{
+  padding: 20px 250px 0 250px;
+}
+
+.alink{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: Merriweather;
+}
+
+.links p{
+  font-family: Merriweather_Sans;
+  color: #696969;
+  line-height: 2;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+
+header a{
+  float: right;
+  font-family: Open_Sans;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1.5px;
+}
+
+.articles:hover{
+  color: #30786b;
+}
+
+.notes:hover{
+  color: #30786b;
+}
+
+.header-right{
+  padding-right: 60px;
+}
+
+.notes{
+  padding-right: 30px;
+}
+
+
+main h1{
+  text-align: center;
+  font-family: Merriweather;
+  padding-top: 125px;
+  font-size: 70px;
+}
+
+.main-hr{
+  height: 3px;
+  width: 200px;
+  border: none;
+  background-color: #30786b;
+
+}
+
+.alink:hover{
+  color: #30786b;
+}
+
+
+footer{
+  height: 20vh;
+  background-color: #446160;
+}
+
+.page-top{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.page-top a{
+  color: #171C21;
+  font-size: 40px;
+}
+
+
+footer p a{
+  text-decoration: none;
+  color: #E7EEEE;
+  font-family: Open_Sans;
+  letter-spacing: 2px;
+}
+
+footer p{
+  color: #212A30;
+  font-family: Open_Sans;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 2px;
+}
