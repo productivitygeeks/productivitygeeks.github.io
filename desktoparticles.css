@@ -75,10 +75,11 @@ margin-left: 42.5%;
 .links p{
   font-family: Merriweather_Sans;
   color: #696969;
-  line-height: 2;
+  line-height: 2.5;
   margin-bottom: 50px;
   margin-top: 20px;
   text-align: left;
+  font-size: 20px;
 }
 
 
