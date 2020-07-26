@@ -1,0 +1,127 @@
+/*Start of Responsive web things*/
+
+
+/*End*/
+
+@font-face{
+  font-family: Saira_Condensed;
+  src: url(Saira_Condensed/SairaCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open_Sans;
+  src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+
+
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/heroimg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 325px;
+  letter-spacing: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+.sub{
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  letter-spacing: 15px;
+  font-family: Saira_Condensed;
+  font-size: 20px;
+}
+
+.mission{
+  color: black;
+  font-family: Open_Sans;
+  line-height: 2.5;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+  height: 100vh;
+  padding: 0 55px 0 55px;
+}
+
+.mission p{
+  padding-top: 12%;
+}
+
+html * {
+  margin: 0;
+}
+
+
+
+.links{
+  padding-top: 5px;
+}
+
+
+.hero a{
+  text-decoration: none;
+  color: #ffffff;
+  float: right;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: Open_Sans;
+  padding-right: 30px;
+}
+
+.articles{
+  margin-right: 30px;
+}
+
+footer{
+  height: 20vh;
+  background-color: #446160;
+}
+
+.page-top{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.page-top a{
+  color: #171C21;
+  font-size: 40px;
+}
+
+
+footer p a{
+  text-decoration: none;
+  color: #E7EEEE;
+  font-family: Open_Sans;
+  letter-spacing: 2px;
+}
+
+footer p{
+  color: #212A30;
+  font-family: Open_Sans;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 2px;
+}

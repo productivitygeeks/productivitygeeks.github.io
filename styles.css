@@ -1,0 +1,121 @@
+html *{
+  margin: 0;
+}
+
+/*fonts*/
+@font-face{
+  font-family: Saira_Condensed;
+  src: url(Saira_Condensed/SairaCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open_Sans;
+  src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+
+/*image*/
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/heroimg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Productivity Geeks Heading*/
+h1{
+  color: #ffffff;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 0 10px 0 10px;
+  display: block;
+}
+
+#top{
+  padding-top: 35vh;
+}
+
+
+/* NOTE: Subheading */
+.sub{
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  letter-spacing: 8px;
+  font-family: Saira_Condensed;
+  padding: 10px 20px 0 20px;
+}
+
+/* NOTE: Top Links */
+.hero a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: Open_Sans;
+  float: right;
+  margin-top: 15px;
+}
+
+.articles{
+  margin-right: 15px;
+}
+.notes{
+  margin: 15px 15px 0 0;
+}
+
+/* NOTE: Mission Statement */
+.mission{
+  height: 75vh;
+  font-family: Open_Sans;
+  text-transform: uppercase;
+  margin: 15vh 25px 10vh 25px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2.5;
+}
+
+  /* NOTE: Footer */
+  footer{
+    height: 25vh;
+    background-color: #446160;
+  }
+
+span{
+  color: #446160;
+}
+
+/* NOTE: Footer Links */
+  footer p a{
+    text-decoration: none;
+    color: #E7EEEE;
+    font-family: Open_Sans;
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+
+/* NOTE: That copyright thing */
+  footer p{
+    color: #212A30;
+    font-family: Open_Sans;
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+
+  /* NOTE: The top of page arrow */
+  .page-top{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .page-top a{
+    color: #171C21;
+    font-size: 40px;
+  }
