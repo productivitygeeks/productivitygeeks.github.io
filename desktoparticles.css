@@ -25,32 +25,9 @@ html *{
 }
 
 header{
-  margin-top: 40px;
-}
-
-.branding{
-  float: left;
-  color: black;
-  margin: 0 0 0 50px;
-  text-transform: uppercase;
-  font-family: Helvetica;
-
-}
-
-.branding a{
-  color: black;
-  font-size: 25px;
-}
-
-.header-right{
-  margin-right: 10px;
-  margin-top: 10px;
-
-  }
-
-
-.branding{
-  margin-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
 
 .main-hr{
@@ -84,7 +61,6 @@ margin-left: 42.5%;
 
 
 header a{
-  float: right;
   font-family: Open_Sans;
   text-transform: uppercase;
   text-decoration: none;
@@ -99,20 +75,6 @@ header a{
 .notes:hover{
   color: #30786b;
 }
-
-.header-right{
-  padding-right: 60px;
-}
-
-.articles{
-  padding-right: 30px;
-}
-
-.notes{
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
 
 main h1{
   text-align: center;
@@ -136,7 +98,7 @@ main h1{
 
 footer{
   height: 20vh;
-  background-color: #446160;
+  background-color: #141515;
 }
 
 .page-top{
@@ -156,14 +118,18 @@ footer{
 
 footer p a{
   text-decoration: none;
-  color: #E7EEEE;
+  color: #ffffff;
   font-family: Open_Sans;
   letter-spacing: 2px;
 }
 
 footer p{
-  color: #212A30;
+  color: #d6d6d6;
   font-family: Open_Sans;
   text-align: center;
   letter-spacing: 2px;
 }
+
+/* NOTE: Footer Links */
+/* NOTE: Footer Branding */
+/* NOTE: Footer copyright */
