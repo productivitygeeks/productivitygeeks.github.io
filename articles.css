@@ -15,7 +15,12 @@
 
 @font-face {
   font-family: Merriweather_Sans;
-  src: url(Merriweather_Sans/MerriweatherSans-Light.ttf);
+  src: url(Merriweather_Sans/Merriweather-Light.ttf);
+}
+
+@font-face {
+  font-family: Cantata;
+  src: url(Cantata_One/CantataOne-Regular.ttf);
 }
 
 html *{
@@ -37,6 +42,8 @@ header div a{
   letter-spacing: 1.5;
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 5px 10px #d6d6d6;
 }
 
 .notes{
@@ -65,7 +72,7 @@ main h1{
   height: 3px;
   width: 150px;
   border: none;
-  background-color: #30786b;
+  background-color: #3F8E69;
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 30%;
@@ -73,7 +80,7 @@ main h1{
 
 /* NOTE: Article Headings */
 .links{
-  margin: 0 15px 0 15px;
+  margin: 0 20px 0 20px;
 }
 
 .alink{
@@ -81,45 +88,72 @@ main h1{
   color: black;
   font-size: 20px;
   font-family: Merriweather;
+  letter-spacing: -1px;
 }
 
 .links p{
   font-family: Merriweather_Sans;
   color: #696969;
   line-height: 2;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 20px;
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
+}
+
+/* NOTE: Read more links */
+.links p a {
+  color: #3F8E69;
+
 }
 
 /* NOTE: Footer */
 footer{
   height: 25vh;
-  background-color: #446160;
+  background-color: #141515;
 }
 
 span{
-color: #446160;
+  display: none;
 }
 
 /* NOTE: Footer Links */
 footer p a{
   text-decoration: none;
-  color: #E7EEEE;
+  color: #ffffff;
+  text-transform: uppercase;
   font-family: Open_Sans;
-  letter-spacing: 2px;
-  font-size: 15px;
+  letter-spacing: 2.5px;
+  font-size: 14px;
 }
 
 /* NOTE: That copyright thing */
 footer p{
-  color: #212A30;
+  color: #d6d6d6;
   font-family: Open_Sans;
   text-align: center;
   padding-top: 5px;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 12px;
+}
+
+.desktop-footer{
+  display: none;
+}
+
+/* NOTE: Branding */
+.branding-footer{
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  padding-bottom: 20px;
+}
+
+.branding-footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 /* NOTE: The top of page arrow */
@@ -130,6 +164,6 @@ footer p{
 }
 
 .page-top a{
-  color: #171C21;
+  color: #ffffff;
   font-size: 40px;
 }
