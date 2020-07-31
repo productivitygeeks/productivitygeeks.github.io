@@ -96,7 +96,7 @@ html * {
 
 footer{
   height: 20vh;
-  background-color: #446160;
+  background-color: #141515;
 }
 
 .page-top{
@@ -112,15 +112,29 @@ footer{
 
 footer p a{
   text-decoration: none;
-  color: #E7EEEE;
+  color: #ffffff;
   font-family: Open_Sans;
   letter-spacing: 2px;
 }
 
 footer p{
-  color: #212A30;
+  color: #d6d6d6;
   font-family: Open_Sans;
   text-align: center;
-  padding-top: 10px;
   letter-spacing: 2px;
+}
+
+/* NOTE: Branding */
+.branding-footer{
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  padding-bottom: 20px;
+}
+
+.branding-footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
 }
