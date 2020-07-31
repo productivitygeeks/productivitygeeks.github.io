@@ -43,7 +43,7 @@ header div a{
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  box-shadow: 0 5px 10px #d6d6d6;
+  box-shadow: 0 8px 10px -6px #d6d6d6;
 }
 
 .notes{
