@@ -1,0 +1,157 @@
+@font-face{
+  font-family: Saira_Condensed;
+  src: url(Saira_Condensed/SairaCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open_Sans;
+  src: url(Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url(Merriweather/Merriweather-Bold.ttf);
+}
+
+@font-face {
+  font-family: Merriweather_Sans;
+  src: url(Merriweather_Sans/Merriweather-Light.ttf);
+}
+
+@font-face {
+  font-family: Cantata;
+  src: url(Cantata_One/CantataOne-Regular.ttf);
+}
+
+html *{
+  margin: 0;
+}
+
+/* NOTE: Entire Header */
+
+
+/* NOTE: Links */
+header div a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: Open_Sans;
+}
+
+.header-right{
+  letter-spacing: 1.5;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 8px 10px -6px #d6d6d6;
+}
+
+.notes{
+  padding-left: 10px;
+}
+
+.articles{
+  padding-left: 10px;
+}
+
+/* NOTE: Productivity Geeks Brand*/
+.branding{
+  display: none;
+}
+
+/* NOTE: HEADINGGG */
+main h1{
+  text-align: center;
+  font-family: Merriweather;
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+/* NOTE: Line */
+.main-hr{
+  height: 3px;
+  width: 150px;
+  border: none;
+  background-color: #3F8E69;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 30%;
+}
+
+/* NOTE: Article Headings */
+.links{
+  margin: 0 20px 0 20px;
+}
+
+.alink{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Merriweather;
+  letter-spacing: -1px;
+}
+
+.links p{
+  font-family: Merriweather_Sans;
+  color: #696969;
+  line-height: 2;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+/* NOTE: Read more links */
+.links p a {
+  color: #3F8E69;
+
+}
+
+/* NOTE: Footer */
+footer{
+  height: 25vh;
+  background-color: #141515;
+}
+
+span{
+  display: none;
+}
+
+/* NOTE: Footer Links */
+footer p a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Open_Sans;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+}
+
+/* NOTE: That copyright thing */
+footer p{
+  color: #d6d6d6;
+  font-family: Open_Sans;
+  text-align: center;
+  padding-top: 5px;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.desktop-footer{
+  display: none;
+}
+
+/* NOTE: Branding */
+.branding-footer{
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  padding-bottom: 20px;
+}
+
+.branding-footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+}
